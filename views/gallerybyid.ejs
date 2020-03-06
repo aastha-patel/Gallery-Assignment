@@ -4,7 +4,7 @@
   if(x.id == title){ %>
     <figure>
     <img src= "/images/lrg/<%= x.fileName %>" alt ="<% x.title %>" ></a>
-    <figcaption><%= x.title %> <a href=" <%= x.attribution.url %>"> <%= x.attribution.credit %></a><%= x.attribution.source %></figcaption>
+    <figcaption><%= x.title %> <a class="source" href=" <%= x.attribution.url %>"> <%= x.attribution.credit %></a> <%= x.attribution.source %></figcaption>
   </figure>
 <%} } %>
 <%- include('partials/footer') %>
