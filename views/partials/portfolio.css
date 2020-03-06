@@ -34,11 +34,17 @@ a {
 }
 
 img {
-    
-    width: 100%;
-  
-    
+    width: 100%;   
 }
+figure{
+    margin-top: 150px;
+    padding: 30px;
+    display: inline-block;
+  }
+  figcaption{
+    text-align: center;
+    color: #b2b2b2;
+  }
 .title-image {
     width: 200px;
     height: 200px;
@@ -209,11 +215,6 @@ header h5 {
     justify-content: center;
 
 } 
-/* .card1 img,.card2 img,.card3 img{
-    display: block;
-    margin:2rem;
-} */
-
 .maincontent{
     margin-left: 120px;
 }
@@ -252,10 +253,6 @@ header h5 {
     margin:0;
     flex-wrap: wrap;
 
-}
-.row-halves img{
-    display: block;
-    margin:2rem;
 }
 
 label {
