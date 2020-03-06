@@ -1,0 +1,29 @@
+{
+  "name": "assignment1-express",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.16.1"
+  },
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "moment": "^2.24.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aastha-patel/Express-Assignment-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aastha-patel/Express-Assignment-1/issues"
+  },
+  "homepage": "https://github.com/aastha-patel/Express-Assignment-1#readme"
+}
